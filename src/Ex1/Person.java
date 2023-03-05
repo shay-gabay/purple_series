@@ -4,8 +4,8 @@ public class Person {
     private int id;
     private String lastName;
     private String firstName;
-    private  String city;
-    private  boolean isSmoking;
+    private String city;
+    private boolean isSmoking;
 
     public Person() {
     }
@@ -72,6 +72,6 @@ public class Person {
                 ", firstName='" + firstName + '\'' +
                 ", city='" + city + '\'' +
                 ", isSmoking=" + isSmoking +
-                '}'+"\n";
+                '}' + "\n";
     }
 }
